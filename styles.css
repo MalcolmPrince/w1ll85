@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.top-section {
+  display: flex;
+  padding: 20px;
+}
+
+.left-image {
+  width: 40%;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.side-text {
+  flex: 1;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.image-grid img {
+  width: 22%;
+  height: auto;
+}
